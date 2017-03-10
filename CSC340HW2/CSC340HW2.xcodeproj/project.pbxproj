@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F34C50D11E5FD273005741F6 /* speech.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = speech.txt; sourceTree = "<group>"; };
 		F3910CBE1E5CCA4000AA14BA /* CSC340HW2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CSC340HW2; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3910CC11E5CCA4000AA14BA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				F3910CC11E5CCA4000AA14BA /* main.cpp */,
+				F34C50D11E5FD273005741F6 /* speech.txt */,
 			);
 			path = CSC340HW2;
 			sourceTree = "<group>";
@@ -239,6 +241,7 @@
 				F3910CC71E5CCA4000AA14BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
