@@ -15,8 +15,7 @@ using namespace std;
 
 class Polynomial{
 private:
-    vector<double> coef;//coefficient
-    vector<int> exp;//exponent
+    vector<double> coef;//coefficient vector with indexes exponents
 public:
     
     //constructors
@@ -28,15 +27,15 @@ public:
     double getCoeff(int power) const; //returns coefficient of term x^(power)
     
     //setters
-    void setPoly(double c, int p); //obtain polynomial from keyboard
+    void setPoly(int terms); //obtain polynomial from keyboard
     void setCoeff(int power, double newCoefficient); //sets coefficient of the term x^(pow) to newCoefficient
     
     //overloaded operators
-    Polynomial operator/ (int& scal);
+    Polynomial operator/ (const int& scal);
     Polynomial operator- ();
     Polynomial operator+(const Polynomial& right);
 
-    friend Polynomial operator<<(ostream& left, const Polynomial& right);
+    friend ostream& operator<<(ostream& put, const Polynomial& right);
     
 };
 
